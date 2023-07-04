@@ -1,0 +1,243 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Ritwick online Library</title>
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/Grid.css">
+        <link rel="stylesheet" type="text/css" href="Resources/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+        <link href="https://unpkg.com/ionicons@4.4.2/dist/css/ionicons.min.css" rel="stylesheet">
+        <script src="https://unpkg.com/ionicons@4.4.2/dist/ionicons.js">
+        </script>
+        <script>
+            function messageSent(){
+                alert("Your message has been sent!");
+            }
+           
+        </script>
+
+
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="row">
+                    <img src="Resources/css/images/logo.jpg.png" class="logo" alt="lib logo">
+                    <ul class="main-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="search.jsp">Search</a></li>
+                        <li><a href="studentlogin.jsp">Checkout</a></li>
+                        <li><a href="#contact-form" >Contact us</a></li>
+                    </ul>
+                
+                </div>
+            
+            </nav>
+            <div class="head-text-box">
+                <h1>Borrow the book,<br>Keep the Knowledge.</h1>
+                <a class="btn btn-full" href="adminlogin.html">Admin</a>
+                <a class="btn btn-ghost" href="studentlogin.jsp">Student</a>
+            
+            </div>
+        
+        
+        </header>
+        <section class="section-features">
+            <div class="row">
+                <h2>Get your Book &mdash; at your doorstep</h2>
+                <p class="long-copy">
+                    Hello, we’re MagicBook, your new premium library service. We know you’re always busy. No time for shoping. So let us take care of that, we’re really good at it, we promise!
+                </p>
+                
+            </div>
+            <div class="row">
+                <div class="col span-1-of-4 box">
+                    <i class="icon ion-md-contacts icon-big"></i>
+                    <h3>Ask Librarian</h3>
+                    <p>Feel free to ask our librarians about any book located at our book storage.</p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <i class="icon ion-md-search icon-big"></i>
+                    <h3>Search</h3>
+                    <p>Feel free to visit any of our regular book exhibitions featuring popular authors.</p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <i class="icon ion-md-infinite icon-big"></i>
+                    <h3>Up to 365 days/year</h3>
+                    <p>Our subscription plans include up to 365 days/year coverage. </p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <i class="icon ion-md-book icon-big"></i>
+                    <h3>New books</h3>
+                    <p>MagicBook Library is regular updated with lots of new books.</p>
+                </div>
+            </div>
+        
+        </section>
+        <section class="section-books">
+            <ul class="books-showcase clearfix">
+                <li>
+                    <figure class="book-photo">
+                        <img src="Resources/css/images/book1.jpg" alt="Web development">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="book-photo">
+                        <img src="Resources/css/images/book2.jpg" alt="Data structure and algorithm.">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="book-photo">
+                        <img src="Resources/css/images/book3.jpg" alt="JDBC and Servlet">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="book-photo">
+                        <img src="Resources/css/images/book4.jpg" alt="Korean Novel">
+                    </figure>
+                </li>
+            </ul>
+            <ul class="books-showcase clearfix">
+                <li>
+                    <figure class="book-photo">
+                        <img src="Resources/css/images/book5.jpg" alt="Php and Mysql">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="book-photo">
+                        <img src="Resources/css/images/book6.jpg" alt="Head First Java">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="book-photo">
+                        <img src="Resources/css/images/book7.jpg" alt="Jump into C++">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="book-photo">
+                        <img src="Resources/css/images/book8.jpg" alt="C#">
+                    </figure>
+                </li>
+            </ul>
+        </section>
+        <section class="section-steps">
+            <div class="row">
+                <h2>how it works &mdash; as Simple as 1,2,3</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-2 steps-box">
+                    <img src="Resources/css/images/app-iPhone.png" alt="appphone" class="app-screen">
+                </div>
+                <div class="col span-1-of-2 steps-box">
+                    <div class="work-steps">
+                        <div>1</div>
+                        <p>Choose the subscription plan that best fits your needs and sign up today.</p>
+                    </div>
+                    <div class="work-steps">
+                        <div>2</div>
+                        <p>Order your favorite books using our mobile app or website. Or you can even call us!</p>
+                    </div>
+                    <div class="work-steps">
+                        <div>3</div>
+                        <p>Enjoy your book after less than 24 hours. See you the next time!</p>
+                    </div> 
+                    <a href="#" class="btn-app"><img src="Resources/css/images/download-app.svg" alt="app store"></a>
+                    <a href="#" class="btn-app"><img src="Resources/css/images/download-app-android.png" alt="android"></a>
+                </div>
+            </div>
+        </section>
+        <section class="section-form" id="contact-form">
+            <div class="row">
+                <h2>We're happy to hear from you</h2>
+            </div>
+            <div class="row">
+                <form action="ContactUs" method="post" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Your name" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Your email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="find-us">How did you find us?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select class="find-us" name ="find-us">
+                                <option value="friends">Friends</option>
+                                <option value="search" selected>Search Engine</option>
+                                <option value="ad">Advertisement</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Newsletter?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="checkbox" name="news" id="news" checked>Yes, please 
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Drop us a line?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" placeholder="Your message"></textarea>
+                        </div>
+                    </div>  
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="Send it!" onclick="messageSent()">
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </section>
+        <footer>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <ul class="footer-nav">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">IOS App</a></li>
+                        <li><a href="#">Android App</a></li>
+                    </ul>
+                </div>
+                <div class=" col span-1-of-2">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="icon ion-logo-facebook"></i></a></li>
+                        <li><a href="#"><i class="icon ion-logo-twitter"></i></a></li>
+                        <li><a href="#"><i class="icon ion-logo-googleplus"></i></a></li>
+                        <li><a href="#"><i class="icon ion-logo-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <p>
+                    Copyright &copy; 2023 by INFOR. All rights reserved
+                </p>
+            </div>
+        </footer>
+        
+    </body>
+    
+</html>
+
+
